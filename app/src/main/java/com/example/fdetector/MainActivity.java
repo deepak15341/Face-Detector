@@ -147,22 +147,7 @@ public class MainActivity extends AppCompatActivity {
                             resultText
                                     = resultText
                                     .concat("\nFACE NUMBER. "
-                                            + i + ": ")
-                                    .concat(
-                                            "\nSmile: "
-                                                    + face.getSmilingProbability()
-                                                    * 100
-                                                    + "%")
-                                    .concat(
-                                            "\nleft eye open: "
-                                                    + face.getLeftEyeOpenProbability()
-                                                    * 100
-                                                    + "%")
-                                    .concat(
-                                            "\nright eye open "
-                                                    + face.getRightEyeOpenProbability()
-                                                    * 100
-                                                    + "%");
+                                            + i + ": ");
                             i++;
                         }
 
